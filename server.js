@@ -10,7 +10,7 @@ const wordRoutes = require("./routes/wordRoutes");
 const newgameRoutes = require("./routes/newgameRoutes");
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8005;
 
 app.engine("mustache", mustacheExpress());
 app.set("views", "./views");

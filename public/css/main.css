@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0 25%;
+    border: 2px solid black;
+}
+
+.title {
+    color: red;
+    padding: 20px;
+}
+
+.newgame {
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 9px;
+}
+
+.wrong-letter {
+    margin-bottom: 10%;
+    color: red;
+
+}
+
+/* .turns {
+    display: flex;
+    flex-direction: row;  
+} */
+
+input {
+    font-size: 15px;
+}
+
+h3 {
+    margin-top: 80px;
+}
+
+button {
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.letter-guess {
+    font-size: 15px;
+}
